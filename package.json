@@ -2,6 +2,7 @@
   "name": "bold-eav-starter",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,9 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "next": "15.0.3",
+    "@eavfw/quickform-core": "1.1.0-vnext.77",
+    "@eavfw/query": "1.0.0-vnext.5"
   },
   "devDependencies": {
     "typescript": "^5",
